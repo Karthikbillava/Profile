@@ -1,36 +1,74 @@
 body {
-  margin: 0;
+  font-family: 'Montserrat';
+}
+
+em {
+  font-weight: lighter;
+}
+
+.title {
   text-align: center;
-  font-family: 'Merriweather', serif;
-  color: #40514E;
+  margin: auto;
 }
-
-h1 {
-  margin-bottom: 0;
-  font-family: 'Sacramento', cursive;
-  font-size: 4rem;
-  color: #66BFBF;
-}
-
-p {
-  line-height: 2;
-  color: #E8F3D6;
-}
-
-.copyrights {
-  color: #495579;
-}
-
-.skills{
-  text-align: center;
-  padding: 50px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+.profile{
   text-align: left;
-  padding-bottom: 50px;
+}
+
+.profile-image {
+  width: 250px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.Title {
+    padding: 3% 15%;
+    background-color: #FF4C68;
+    color: white;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  font-family: 'Sacramento', cursive;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  color: white;
+}
+
+.nav-link:hover {
+  text-decoration: overline;
+}
+
+.Work {
+  text-align: center;
+  background: #FF9F9F;
+  padding-top: 30px;
+  color: #4C6793;
+}
+
+.skills {
+  padding: 0 100px 0 100px;
+
+}
+
+.skillrow {
+  padding:20px;
 }
 
 .skillimage1 {
@@ -49,102 +87,12 @@ p {
   border-style: ridge; */
 }
 
-.contact-me {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  margin: 0;
-  color: #66BFBF;
-  font-weight: normal;
-  padding-bottom: 10px;
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
-
-}
-
-.top-container {
-  background-color: #E8F3D6;
-  position: relative;
-  padding-top: 250px;
+.contact-foot {
+  background-color: #153462;
   text-align: center;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 400px;
-  top: 50px;
-}
-
-.tagline {
-  width: 100%;
-  margin: auto;
-  color: #495579;
-  padding-bottom: 50px;
-}
-
-.birds {
-  width: 5%;
-  height: 10%;
-  position: absolute;
-  left: 500px;
-  top: 100px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 500px;
-}
-
-.middle-container {
-  background-color: #495579;
-  padding-bottom: 30px;
-  padding-top: 50px;
-  text-align: center;
-}
-
-hr {
-  border-style: dotted;
-  border-bottom: none;
-  border-color: #EAF6F6;
-  border-width: 6px;
-  width: 10%;
-  background-position: center;
-}
-
-
-.bottom-container {
-  background-color: #B1E1FF;
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-
-.profile {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.profile-image {
-  width: 200px;
-  height: 250px;
-  border-radius: 100%;
-}
-
-.mountain {
-  width: 60%;
-  height: 60%;
-  margin: 0;
-}
-
-.pro {
-  text-decoration: underline;
+  color: white;
+  padding-top: 30px;
 }
 
 .footer-link {
@@ -152,6 +100,11 @@ hr {
   font-family: 'Montserrat', sans-serif;
   color: #3E6D9C;
   margin: 10px 20px 10px 20px;
+
+}
+
+.message-btn{
+    margin-bottom: 30px;
 }
 
 .footer-link:hover {
@@ -162,19 +115,4 @@ hr {
   font-size: 0.75rem;
   padding-top: 30px;
   color: #3E6D9C;
-}
-
-.btn {
-  background: #11CDD4;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 15px;
-  padding-bottom: 10px;
-
-}
-
-.btn:hover {
-  background: #30E3CB;
-  text-decoration: none;
 }
