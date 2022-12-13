@@ -1,5 +1,7 @@
 body {
   font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
 }
 
 em {
@@ -9,13 +11,20 @@ em {
 .title {
   text-align: center;
   margin: auto;
+  padding-top: 100px;
 }
+/* .profile{
+  text-align: left;
+} */
 
 .profile-image {
   width: 250px;
   height: 300px;
   border-radius: 20%;
+
 }
+
+
 
 .pro {
   text-decoration: underline;
@@ -28,7 +37,7 @@ em {
 }
 
 .navbar {
-    padding: 0 0 4.5rem 0;
+    padding: 0 0 0 0;
 }
 
 .navbar-brand {
@@ -59,10 +68,6 @@ em {
   color: #4C6793;
 }
 
-.skills {
-  padding: 0 100px 0 100px;
-
-}
 
 .skillrow {
   padding:20px;
@@ -92,24 +97,28 @@ em {
   padding-top: 30px;
 }
 
-.footer-link {
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  color: #3E6D9C;
-  margin: 10px 20px 10px 20px;
-
+.social-icons {
+  margin: 10px 10px 20px 10px;
+  color: white;
+}
+.social-icons:hover{
+  color: #FF9F9F;
 }
 
 .message-btn{
     margin-bottom: 30px;
 }
 
-.footer-link:hover {
-  color: #FF6464;
-}
 
 .copyrights {
   font-size: 0.75rem;
   padding-top: 30px;
   color: #3E6D9C;
+  margin: 0 20px;
+  padding: 0;
+
+}
+
+.copyrights:hover {
+  color: white;
 }
