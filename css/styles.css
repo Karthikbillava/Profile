@@ -13,18 +13,13 @@ em {
   margin: auto;
   padding-top: 100px;
 }
-/* .profile{
-  text-align: left;
-} */
 
 .profile-image {
-  width: 250px;
-  height: 300px;
+  width: 200px;
+  height: 250px;
   border-radius: 20%;
 
 }
-
-
 
 .pro {
   text-decoration: underline;
@@ -68,6 +63,16 @@ em {
   color: #4C6793;
 }
 
+.card {
+  background-color:#FF9F9F;
+  color: white;
+  font-family: 'Montserrat';
+}
+
+.skills {
+  padding-top: 10px;
+  text-align: center;
+}
 
 .skillrow {
   padding:20px;
